@@ -7,15 +7,17 @@ import Contact from "./components/Contact";
 import Post from './components/Post';
 
 class App extends Component {
-  render(){
+  render() {
     return (
       <BrowserRouter basename="/pokeTimes">
         <div className="App">
           <Navbar />
-          <Route exact path="/" component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/:post_id" component={Post} />
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/about" component={About} />
+            <Route path="/contact" component={Contact} />
+            <Route path="/:post_id" component={Post} />
+          </Switch>
         </div>
       </BrowserRouter>
     )
