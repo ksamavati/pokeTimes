@@ -14,9 +14,9 @@ class App extends Component {
           <Navbar />
           <Switch>
             <Route exact path="/pokeTimes" component={Home} />
-            <Route path="/about" component={About} />
-            <Route path="/contact" component={Contact} />
-            <Route path="/:post_id" component={Post} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/contact" component={Contact} />
+            <Route exact path="/:post_id" component={Post} />
           </Switch>
         </div>
       </BrowserRouter>
