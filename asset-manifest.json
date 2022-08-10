@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/pokeTimes/static/css/main.e6c13ad2.css",
-    "main.js": "/pokeTimes/static/js/main.1de35ae5.js",
+    "main.js": "/pokeTimes/static/js/main.04b06718.js",
     "static/js/787.93f95b74.chunk.js": "/pokeTimes/static/js/787.93f95b74.chunk.js",
     "index.html": "/pokeTimes/index.html",
     "main.e6c13ad2.css.map": "/pokeTimes/static/css/main.e6c13ad2.css.map",
-    "main.1de35ae5.js.map": "/pokeTimes/static/js/main.1de35ae5.js.map",
+    "main.04b06718.js.map": "/pokeTimes/static/js/main.04b06718.js.map",
     "787.93f95b74.chunk.js.map": "/pokeTimes/static/js/787.93f95b74.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.1de35ae5.js"
+    "static/js/main.04b06718.js"
   ]
 }
